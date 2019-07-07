@@ -39,6 +39,7 @@ ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/ /' -e 's/-
 ffmpeg -y -f alsa -ac 2 -i pulse -f x11grab -r 30 -s `xdpyinfo | grep 'dimensions:'|awk '{print $2}'` -i :0.0 -acodec pcm_s16le output.wav -an -vcodec libx264 -vpre lossless_ultrafast -threads 0 output.mp4
 ffmpeg -f x11grab -r 25 -s 800x600 -i :0.0 /tmp/outputFile.mpg
 
+#
 dd if=/dev/zero of=/dev/null bs=1M count=32768
 
 mount /path/to/file.iso /mnt/cdrom -oloop
@@ -69,7 +70,8 @@ df -ah $DIR
 # get disk usage of $DIR in human readable form
 du -sh $DIR
 
-nvidia-smi # nvidia device information
+# nvidia device information
+nvidia-smi
 
 
 # Supported SSH escape sequences (first press Enter):
@@ -98,3 +100,4 @@ kill PID1 PID2 PID3
 kill -9 PID1 PID2 PID3
 # aka:
 kill -SIGKILL PID1 PID2 PID3
+
