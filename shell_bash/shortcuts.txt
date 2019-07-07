@@ -1,0 +1,5 @@
+Switch between windows: Alt + Tab
+Switch between virtual terminals: Ctrl + Alt + F{1, 2, 3, 4, 5, 7}
+Kill a process: Ctrl + k
+Zombie a process (send to background): Ctrl + z
+
