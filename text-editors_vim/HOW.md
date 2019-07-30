@@ -12,7 +12,7 @@ U
 [n]<C>+r
 
 # Ex Commands
-## Find and Replace
+## Search and Replace
 ### One Line, First Occurrence
 :s/<search>/<replace>/
 ### One Line, All Occurrences (Global)
@@ -21,6 +21,13 @@ U
 :<start>,<end>s/<search>/<replace>/g
 ### All lines, Global
 :%s/<search>/<replace>/g
+
+## Global
+### Yank matched lines to register a
+:g/<search>/y A
+### Copy all matched lines
+:g/<search>/y A
+:let @+ = @a
 
 # Visual Mode
 # Block Visual - Arbitrary Select
