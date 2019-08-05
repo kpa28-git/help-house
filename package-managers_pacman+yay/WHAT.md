@@ -1,4 +1,4 @@
-# Pacman+Yay
+# pacman+yay
 
 # One sentence
 * Pacman is the Arch package manager; Yay does what Pacman does in addition to managing Arch User Repository (AUR) packages.

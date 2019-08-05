@@ -1,4 +1,4 @@
-# Conda
+# conda
 
 # Install and Configure
 - Do not install Anaconda or Miniconda with a package manager, the package manager will install Anaconda/Miniconda in a system directory (like /opt/ or something) which will screw things up later because it needs to be user-accesible (to be able to use conda without sudo).

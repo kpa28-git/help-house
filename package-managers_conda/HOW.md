@@ -1,4 +1,4 @@
-# Conda
+# conda
 
 # Meta
 ## Information about the Anaconda install

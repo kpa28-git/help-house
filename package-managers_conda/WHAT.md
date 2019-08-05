@@ -1,4 +1,4 @@
-# Conda
+# conda
 
 # One Sentence
 * A cross-platform binary package and environment manager with dependency safeguards, mainly used within Python scientific computing work

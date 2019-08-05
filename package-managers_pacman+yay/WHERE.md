@@ -1,4 +1,4 @@
-# Pacman+Yay
+# pacman+yay
 
 # Install and Configure
 ## Install Yay
