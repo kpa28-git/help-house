@@ -40,7 +40,7 @@ conda update conda pip
 conda update $PACKAGE_NAME
 conda update --all
 
-## Install package
+## Install packages
 conda install -n $ENV_NAME $PACKAGE_NAME
 conda install $PACKAGE_NAME
 conda install $PACKAGE_NAME=$PKG_VERSION # Also works for reinstalling to a different version
@@ -53,7 +53,7 @@ conda install $PACKAGE_NAME -c conda-forge
 conda update conda pip
 pip install $PACKAGE_NAME
 
-## Remove package
+## Remove Packages
 conda remove $PACKAGE_NAME
 conda remove -n $ENV_NAME PACKAGE_NAME
 

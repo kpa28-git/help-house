@@ -4,19 +4,8 @@
 ## Print system package stats
 yay -Ps
 
-# Sync and search the remote package database
-## Sync the local package list to remote
-yay -Sy
 
-## Force sync the local package list even if not out of date
-yay -Syy
-
-## Sync the local package list and upgrade all packages afterwards
-yay -Syu
-
-## Force sync the local package list and upgrade all packages afterwards
-yay -Syyu
-
+# Search Repositories
 ## Search for a package on the Arch official repo database only
 pacman -Ss $PACKAGE_NAME
 
@@ -26,7 +15,8 @@ yay -Ss $PACKAGE_NAME
 ## Search for package on Arch official repo database and AUR and provide detailed summary
 yay -Si $PACKAGE_NAME
 
-# Search installed packages
+
+# Search Installed
 ## List all installed packages
 yay -Q
 
@@ -48,7 +38,20 @@ yay -Qk $PACKAGE_NAME
 ## Search for packages that own the file
 yay -Qo $PATH_TO_FILE
 
-# Install packages
+
+# Install Packages
+## Sync the local package list to remote
+yay -Sy
+
+## Force sync the local package list even if not out of date
+yay -Syy
+
+## Sync the local package list and upgrade all packages afterwards
+yay -Syu
+
+## Force sync the local package list and upgrade all packages afterwards
+yay -Syyu
+
 # Search for package and present menu for its+dependencies installation
 yay $SEARCH_TERM
 
@@ -67,7 +70,8 @@ yay -U $PATH_OR_URL
 ## Download AUR PKGBUILD
 yay -G $PACKAGE_NAME
 
-# Remove packages
+
+# Remove Packages
 ## Remove a package but keep dependencies + config files
 yay -R $PACKAGE_NAME
 

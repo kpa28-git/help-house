@@ -3,12 +3,15 @@
 # Meta
 
 
-# Search installed packages
+# Search Repositories
 
 
-# Install packages
+# Search Installed
 
 
-# Remove packages
+# Install Packages
+
+
+# Remove Packages
 
 
