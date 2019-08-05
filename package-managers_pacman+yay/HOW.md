@@ -1,5 +1,6 @@
 # pacman+yay
 
+
 # Meta
 ## Print system package stats
 yay -Ps

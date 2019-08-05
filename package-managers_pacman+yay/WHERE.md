@@ -1,5 +1,6 @@
 # pacman+yay
 
+
 # Install and Configure
 ## Install Yay
 - Assuming you do not already have a AUR helper, you must install Yay manually:

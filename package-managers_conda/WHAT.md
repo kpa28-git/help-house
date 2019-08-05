@@ -1,7 +1,9 @@
 # conda
 
+
 # One Sentence
 * A cross-platform binary package and environment manager with dependency safeguards, mainly used within Python scientific computing work
+
 
 # Background
 - Anaconda is a set of starting packages including conda, numpy, scipy, ipython notebook, and so on.
