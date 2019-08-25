@@ -5,7 +5,7 @@ I started this a while ago. It is fairly incomplete but we'll see if it grows, n
 
 # Guidelines and Structure
 ## Topics
-Each directory is about a particular topic. Each topic may or may not have an associated general category. The naming convention is: '\<General Category\>_\<Specific Topic\>' or simply '\<Specific Topic\>' if there is no associated category. Dashes ('-') are used instead of spaces. Underscores are only used if they are in the original name of the tool or topic (as in 'wpa_supplicant').
+Each directory is about a particular topic. Each topic may or may not have an associated general category. The naming convention is: '\<General Category\>_\<Specific Topic\>' or simply '\<Specific Topic\>' if there is no associated category. Dashes ('-') are used instead of spaces. If a Specific Topic has an underscore in its name, it is replaced by a dash ('wpa_supplicant' -> 'wpa-supplicant').
 
 As of now topics can be broad (such as 'networking') or narrow (such as 'wpa_supplicant'). It is generally encouraged to break large broad topics into smaller narrower topics where possible, but the ultimate goal is the best arrangement for practical use, and there may not be one-size fits all rules for this.
 
