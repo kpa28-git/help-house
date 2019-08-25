@@ -1,3 +1,11 @@
+```
+ |          |             |
+ __ \   _ \ | __ \        __ \   _ \  |   |  __|  _ \
+ | | |  __/ | |   |_____| | | | (   | |   |\__ \  __/
+_| |_|\___|_| .__/       _| |_|\___/ \__,_|____/\___|
+             _|
+Concise GNU/Linux markdown helpfiles.
+```
 # General
 Houses helpful concise information primarily about GNU/Linux, POSIX, and related topics arranged in a flat layout. The intent is for a set of concise and practical help files as a supplement to primary resources (ie man pages).
 
