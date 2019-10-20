@@ -2,6 +2,9 @@
 
 
 # Meta
+## Conda help information (no manpage by default)
+conda help
+
 ## Information about the Anaconda install
 conda info
 
@@ -19,9 +22,13 @@ conda activate $ENV_NAME
 conda deactivate $ENV_NAME
 
 # Package Information
-## Print all locally installed packages
+## List all locally installed packages
 conda list
 conda list -n $ENV_NAME
+
+## List all locally installed pip packages
+conda list | grep pypi
+conda list -n $ENV_NAME | grep pypi
 
 ## Search installed packages
 conda list $PACKAGE_NAME
