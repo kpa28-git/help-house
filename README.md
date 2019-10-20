@@ -20,7 +20,7 @@ As of now topics can be broad (such as 'networking') or narrow (such as 'wpa-sup
 ## Content
 Within each topic there are what *HOW*, *WHAT*, and *WHERE* Markdown files, in addition to any additional optional files or scripts.
 
-### The HOW
+### The HOW (how.md)
 - The *HOW* lists commands or templates of how to use the tool(s)
 - This should be the most useful, detailed, and repeatedly used help file of the three
 - Think of it like a very practical manpage of examples for something you mostly know how to use
@@ -29,7 +29,7 @@ Within each topic there are what *HOW*, *WHAT*, and *WHERE* Markdown files, in a
 - Contains as much of the most useful functionality as possible
 - Eventually this should be made to be *easily greppable*
 
-### The WHAT
+### The WHAT (what.md)
 - The *WHAT* gives a concise rundown of what it's all about
 - Starts with a *One Sentence* overview of what it is
 - Gives a brief bit of *Background*
@@ -37,7 +37,7 @@ Within each topic there are what *HOW*, *WHAT*, and *WHERE* Markdown files, in a
 - Should be mostly plain text with any commands/code *bolded*
 - Think executive summary
 
-### The WHERE
+### The WHERE (where.md)
 - The *WHERE* tells you where to get it and where to configure it
 - Contains *Install* and *Configure* sections if relevant that describe how best to do these
 - Should be mostly plain text with any commands/code bolded
