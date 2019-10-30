@@ -9,6 +9,8 @@ Concise GNU/Linux markdown helpfiles.
 # General
 Houses helpful concise information primarily about GNU/Linux, POSIX, and related topics arranged in a flat layout. The intent is for a set of concise and practical help files as a supplement to primary resources (ie man pages).
 
+[This script in my scripts repo](https://github.com/kpatel28/scripts/blob/master/mantools/hh), is a basic example of how this repo could be used to augment a terminal based workflow.
+
 I started this a while ago. It is fairly incomplete but we'll see if it grows, not making promises. Look at the TODO.md to see the state of things.
 
 # Guidelines and Structure
