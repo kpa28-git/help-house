@@ -11,9 +11,9 @@
 - Run the script as your normal user
 
 ## Install Python3 64-bit Miniconda
-- *wget -c http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh*
-- *chmod 700 Miniconda3-latest-Linux-x86_64.sh*
-- Run the script as your normal user: *bash Miniconda3-latest-Linux-x86_64.sh*
+- `wget -c http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh`
+- `chmod 700 Miniconda3-latest-Linux-x86_64.sh`
+- Run the script as your normal user: `bash Miniconda3-latest-Linux-x86_64.sh`
 
 
 # Sources

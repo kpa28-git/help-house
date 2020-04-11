@@ -41,3 +41,9 @@
 	- Generally works well and elegantly, more so than other options I've used like Yaourt
 	- Philosophy of minimizing user interaction
 
+## Hooks
+- You can think of hooks as non-interactive pieces of code run as a response to an event (in this case package install, upgrade, removal).
+- Pacman runs system hooks located at: /usr/share/libalpm/hooks
+- User written hooks should be added to: /etc/pacman.d/hooks
+- Hooks are extremely useful ways to automate, clean, debloat, and even protect your system.
+- There are pacman and AUR packages that can install hooks for you, one example is [dashbinsh](https://aur.archlinux.org/packages/dashbinsh/), a hook that relinks /bin/sh to dash after pacman upgrades (overwriting the default bin/sh -> bash symlink). Without a hook or manual intervention /bin/sh will always be linked to bash after an upgrade.
