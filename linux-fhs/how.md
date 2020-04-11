@@ -90,9 +90,6 @@
 * `/home/<user>/.bashrc`
 * `/home/<user>/.inputrc`
 * `/home/<user>/.profile`
-* `/home/<user>/.python_history`
-* `/home/<user>/.tmux.conf`
-* `/home/<user>/.viminfo`
 * `/home/<user>/.Xdefaults`
 * `/home/<user>/.xinitrc`
 * `/home/<user>/.xprofile`
