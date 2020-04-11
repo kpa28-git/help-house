@@ -66,7 +66,7 @@
 
 # Home Directory
 * This list is of course not exhaustive, but contains common files/directories and conventions across most linux distros
-* Information about home directory arrangement is not technically part of the FHS, but there are common conventions that will be described here
+* Information about home directory arrangement is not part of the FHS, but there are conventions described here that are part of the Free Desktop XDG Specification
 * Dotfiles are hidden files or directories often used for configuration of the shell, graphical environments, or user applications
 * Configuration of various shells and most general graphical environment configuration is kept at the root of the user home directory
 * Most user application configuration is kept in the `/home/<user>/.config/` directory (the usual setting of `$XDG_CONFIG_HOME`) though some may be at the root of the user home directory
@@ -75,13 +75,15 @@
 * `/home/<user>/`: The root of the home directory for <user>
 * `/home/<user>/.cache/`
 	- User application cache directory
+	- The usual setting of `$XDG_CACHE_HOME`
 * `/home/<user>/.config/`
 	- User application configuration directories/files are kept here
+	- The usual setting of `$XDG_CONFIG_HOME`
 * `/home/<user>/.local/`
 	- `/home/<user>/.local/share/`
 	- `/home/<user>/.local/bin/`
-		- Optional directory for user binaries (ie user scripts) that you can add
-		- If you add this directory, make sure to modify your `PATH` variable
+		- A good directory for user binaries (ie user scripts) that you can add
+		- If you use this directory, make sure to add all the tools in it to your `$PATH` variable for ease of use
 
 ## Common Dotfiles
 * `/home/<user>/.bash_history`
