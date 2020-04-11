@@ -83,7 +83,7 @@
 		- Optional directory for user binaries (ie user scripts) that you can add
 		- If you add this directory, make sure to modify your `PATH` variable
 
-## Dotfiles
+## Common Dotfiles
 * `/home/<user>/.bash_history`
 * `/home/<user>/.bash_logout`
 * `/home/<user>/.bash_profile`
@@ -95,6 +95,5 @@
 * `/home/<user>/.xprofile`
 * `/home/<user>/.Xresources`
 * `/home/<user>/.xsession`
-* `/home/<user>/.xonshrc`
 * `/home/<user>/.zprofile`
 
