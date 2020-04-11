@@ -1,7 +1,7 @@
 # Linux-FHS
 
 # Sources
-* *man hier*
+* `man hier`
 * https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
 * https://wiki.linuxfoundation.org/lsb/fhs
 * http://www.pathname.com/fhs/
