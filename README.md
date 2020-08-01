@@ -27,6 +27,7 @@ I started this a while ago. It is fairly incomplete but we'll see if it grows, n
 * text-editors_vim
 
 ## Empty
+* text-editors_kakoune
 * shell_xonsh
 
 # Guidelines and Structure

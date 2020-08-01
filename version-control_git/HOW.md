@@ -9,7 +9,7 @@
 or
 `git diff --staged`
 
-## Show all changes between working directory and HEAD
+## Show changes between working directory and HEAD
 `git diff HEAD`
 
 
