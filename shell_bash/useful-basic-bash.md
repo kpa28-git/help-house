@@ -1,5 +1,4 @@
-#!/bin/bash
-# Kevin Patel
+# A bunch of random useful bash commands
 
 # Rerun sudo on previous command
 sudo !!
