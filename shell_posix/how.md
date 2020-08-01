@@ -2,6 +2,9 @@
 # POSIX Man Pages
 `man 1p <cmd>`
 
+# Source a shellscript file
+`. "/path/to/file"`
+
 # Printing to stdout
 
 # Pseudo array
@@ -26,4 +29,10 @@ set -- $A $B $C $D ...
 for elem in "$@"; do
 	# use elem here
 done
+```
+* Loop over a list of string constants
+```
+for elem in 'string1' 'string2' 'string3'; do
+	# use elem here
+done;
 ```
