@@ -14,7 +14,7 @@
 
 # Version Upgrades
 ## Major Version Upgrade
-* This guide assumes the use of the freebsd postgres binary package, where the db is started manually instead of being enabled at boot.
+* This guide assumes the use of the freebsd postgres binary package, where the db is started manually instead of being enabled at boot, and we are using `pg_upgrade` to upgrade.
 * This steps may differ slightly from upgrading on other systems because some custom scripts are used from the freebsd package of postgres server. In particular the cluster location conventions may differ on other systems.
 1. Stop the cluster: `sudo -iu postgres /usr/local/etc/rc.d/postgresql onestop`
 2. Download current version binaries (freebsd.pkgs.org) or back them up before upgrading the package
