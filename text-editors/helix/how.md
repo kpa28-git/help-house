@@ -2,9 +2,9 @@
 
 # Command Mode
 * `:` enters Command mode
-* `:q(uit)`/`:q(uit)!` quit / force quit
-* `:w(rite)`: save file
-* `:wq`|`:write-quit`: save and quit
+* `:q(uit)`/`:q(uit)!` quits / force quits
+* `:w(rite)` saves file
+* `:wq`|`:write-quit` saves file and quits
 
 # Insert Mode
 * `i` enters Insert mode before selection
@@ -21,9 +21,15 @@
 ## Movement
 * `h`,`j`,`k`,`l` keys move the cursor
 
-### File Movement
-* `gg`/`<n>gg`/`ge` move to first/nth/last line in file
-* `gt`/`gc`/`gb` move to top/center/bottom of screen
+### Goto Mode Movement
+* `g.` go to last modification
+* `gs` go to first non-blank in line
+* `gh`/`gl` go to beginning/end of line
+* `gg`/`<n>gg`/`ge` go to first/nth/last line
+* `gt`/`gc`/`gb` go to top/center/bottom of screen
+
+### Page Movement
+* `PageUp`/`PageDown` move full page up/down
 * `C-b`/`C-f` move full page up/down
 * `C-u`/`C-d` move half page up/down
 
