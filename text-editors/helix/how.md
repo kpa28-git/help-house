@@ -74,7 +74,7 @@
 * `J` joins the lines in the selection
 * `&` aligns selections
 * `~` switches case
-* `/``/`A-\`` set to lower/upper case
+* `` ` ``/`` A-` `` set to lower/upper case
 * `"<reg>` selects a different register
 
 ### Undo
