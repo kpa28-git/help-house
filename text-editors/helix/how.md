@@ -20,20 +20,29 @@
 
 ## Movement
 * `h`,`j`,`k`,`l` keys move the cursor
+
+### File Movement
 * `gg`/`<n>gg`/`ge` move to first/nth/last line in file
+* `gt`/`gc`/`gb` move to top/center/bottom of screen
+* `C-b`/`C-f` move full page up/down
+* `C-u`/`C-d` move half page up/down
+
+### Text Movement
 * `w`/`W` move to the next word with/without special delimiting
 * `e`/`E` move to end of current word with/without special delimiting
 * `b`/`B` move backwards to start of current word with/without special delimiting
+* `mm` go to matching bracket
 
 ### Jump List
 * `C-s` to save current position to the jumplist
-* `C-i`/`C-o` go forward/backward in the jumplist
+* `C-i`/`C-o` jump forward/backward in the jumplist
 
 ## Selection
 * `%` selects the whole file
 * `;` collapse the selection
 * `s` select all instances of a regex pattern within the selection
-* `x` select line (repeated presses extend the selection)
+* `X` select line
+* `x` select line, repeated presses extend the selection to next line(s)
 * `f`/`F` select to a character forward/backward (inclusive)
 * `t`/`T` select to a character forward/backward (exclusive)
 * `A-.` repeats the last `f`/`t`, extending the selection
@@ -49,15 +58,17 @@
 * `n`/`N` for next/previous match (same for both `/` and `?`)
 
 ### Select Mode
-* `v` enters select (visual) mode, where all motions extend the selection
+* `v` enters select (extend) mode, where all motions extend the selection
 * In select mode `n`/`N` extends the selection with search matches instead of just jumping to them
 
 ## Text Modification
 * `.` repeats the last insertion
-* `d` deletes the selection
-* `r` replaces all chars in the selection with the next typed char
+* `d`/`A-d` deletes the selection with / without yanking
+* `r` replaces all characters in the selection
 * `J` joins the lines in the selection
 * `&` aligns selections
+* `~` switches case
+* `/``/`A-\`` set to lower/upper case
 * `"<reg>` selects a different register
 
 ### Undo
