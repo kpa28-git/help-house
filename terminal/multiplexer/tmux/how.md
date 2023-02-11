@@ -1,5 +1,8 @@
 
-# Attaching and Detaching
+# Basics
+## List Sessions
+`tmux ls`
+
 ## Start a New Session
 `tmux`
 

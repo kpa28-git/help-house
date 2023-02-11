@@ -1,6 +1,4 @@
-# Julia
-
-# Pkg
+# Pkg (Julia Standard Package Manager)
 
 ## Enter Pkg shell
 `julia> ]`
@@ -24,10 +22,10 @@
 `pkg> add <dep>`
 
 ## Run the package build (executes `deps/build.jl`)
-`(<package>) pkg> build`
+`pkg> build <package>` || `(<package>) pkg> build`
 
 ## Run the package tests (executes `test/runtests.jl`)
-`(<package>) pkg> tests`
+`pkg> test <package>` || `(<package>) pkg> tests`
 
 # Notation
 * `julia>`: indicates Julia shell
