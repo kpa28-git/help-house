@@ -13,23 +13,6 @@ Houses helpful concise information primarily about GNU/Linux, POSIX, and related
 
 I started this a while ago. It is fairly incomplete but we'll see if it grows, not making promises yet.
 
-# Todo
-## Mature
-* linux-fhs
-* package-managers_conda
-* package-managers_pacman+yay
-* package-managers_pip
-
-## Started
-* networking
-* shell_bash
-* shell_posix
-* text-editors_vim
-
-## Empty
-* text-editors_kakoune
-* shell_xonsh
-
 # Guidelines and Structure
 ## Topics
 Each directory is about a particular topic. Each topic may or may not have an associated general category. The naming convention is: '\<General Category\>_\<Specific Topic\>' or simply '\<Specific Topic\>' if there is no associated category. Dashes ('-') are used instead of spaces. If a Specific Topic has an underscore in its name, it is replaced by a dash ('wpa_supplicant' -> 'wpa-supplicant').
