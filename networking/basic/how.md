@@ -1,4 +1,3 @@
- Networking
 
 # LAN IP Networks (RFC 1918) - Reserved for private networks never routed directly to the public Internet (therefore available for use with NAT)
 |Range         |Netmask    |Broadcast      | Host Address Range           |
@@ -15,18 +14,4 @@
 `nmap -sn <subnet>/24`
 or
 `nmap -sP <subnet>.*`
-
-# SSH
-## Log into remote - remote sshd must be running and allow password logins if it doesnt have your public key
-`ssh <user>@<remote>`
-
-## Copy public key to remote - allows passwordless ssh if remote sshd configured as such
-`ssh-copy-id <user>@<remote>`
-
-# Transferring Data
-## Recursive rsync with remote
-`rsync -aXP <source_path> <user>@<remote>:<dest_path>`
-
-## Recursive rsync with remote (mirrored - deletes remote files not in source)
-`rsync -aXP --delete <source_path> <user>@<remote>:<dest_path>`
 
