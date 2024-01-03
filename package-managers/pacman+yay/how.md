@@ -91,3 +91,11 @@
 ## Clear the package manager cache
 `paccache -r`
 
+# Maintenance
+
+## Run Pacdiff (manage pacnew / pacsave files)
+`pacdiff`
+
+## Run Pacdiff with <MY_EDITOR>
+`DIFFPROG=<MY_EDITOR> pacdiff`
+
